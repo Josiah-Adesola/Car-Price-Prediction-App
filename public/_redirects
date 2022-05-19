@@ -2,4 +2,4 @@
 
 /home                                /
 
-/predict                          /predict
+/%7B%7B%20url_for('predict')%7D%7D                        /predict
