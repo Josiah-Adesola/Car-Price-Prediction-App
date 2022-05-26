@@ -13,7 +13,7 @@ def Home():
 
 
 standard_to = StandardScaler()
-@app.route("/predict", methods=['POST'])
+@app.route("/%7B%7B%20url_for('predict')%7D%7D", methods=['POST'])
 def predict():
     Fuel_Type_Diesel=0
     if request.method == 'POST':
